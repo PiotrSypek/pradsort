@@ -8,7 +8,8 @@ Overview
 --------
 
 This project provides parallel implementation of the radix sort algorithm designed to sort an array of integers.
-Sorting is performed in a most significant digit (MSD) first scenario.
+Sorting is performed in a least significant digit (LSD) first scenario.
+Implemented routine returns also permutation that can be used to sort data.
 Parallel implementation of this algorithm has been defined using C++ language and OpenMP API.
 Example programs were tested on Linux and Windows operating systems.
 
